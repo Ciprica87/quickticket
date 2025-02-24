@@ -3,6 +3,7 @@ QuickTicket is a secure and efficient digital solution for managing and validati
 
 🚀 Features
 Event Management: Create, manage, and monitor events in real-time.
+
 Customizable Tickets: Generate tickets with personalized categories (tiers).
 Mobile Validation: Validate tickets using a dedicated Android app with staff-specific accounts.
 Secure Authentication: JWT-based authentication for organizers and staff.
