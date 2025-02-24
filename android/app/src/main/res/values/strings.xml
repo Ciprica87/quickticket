@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">QuickTicket</string>
+    <string name="login_activity_title">login</string>
+    <string name="logo">logo</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign-up</string>
+    <string name="explore">Explore</string>
+    <string name="landing_lower_text">landing</string>
+    <string name="scan_activity_title">landing</string>
+    <string name="logo_description">logo</string>
+    <string name="scan">scan</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="logout">Log-out</string>
+    <string name="scan_next">Scan next ticket</string>
+</resources>
