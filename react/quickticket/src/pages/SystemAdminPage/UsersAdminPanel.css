@@ -1,0 +1,111 @@
+.users-admin-panel {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  height: calc(100vh - 200px); 
+  overflow: hidden; 
+}
+
+.users-admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.filter-dropdown {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+}
+
+.users-list-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.user-card {
+  background-color: var(--white);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  margin-bottom: 10px; 
+  width: 97%;
+}
+
+.user-card.selected {
+  border-color: var(--royal-blue);
+  background-color: var(--baby-blue);
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-info h4 {
+  margin: 0;
+  padding-right: 20px;
+  min-width: 150px; 
+}
+
+.user-info p {
+  margin: 0;
+  padding: 0 10px;
+}
+
+.user-info span {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.username {
+  flex: 2;
+}
+
+.email {
+  flex: 3;
+  display: flex;
+  align-items: center;
+}
+
+.role {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.users-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+}

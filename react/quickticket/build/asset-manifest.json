@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.48a8f008.css",
+    "main.js": "/static/js/main.6b4f1194.js",
+    "static/media/bg.png": "/static/media/bg.e247b047be5b81bd3a46.png",
+    "static/media/FiraMono-Bold.ttf": "/static/media/FiraMono-Bold.0c50cfced9c27d6635e9.ttf",
+    "static/media/FiraMono-Regular.ttf": "/static/media/FiraMono-Regular.7534a76c5a021a6aae2f.ttf",
+    "static/media/logo.png": "/static/media/logo.247c72705a16aa68aa91.png",
+    "index.html": "/index.html",
+    "main.48a8f008.css.map": "/static/css/main.48a8f008.css.map",
+    "main.6b4f1194.js.map": "/static/js/main.6b4f1194.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48a8f008.css",
+    "static/js/main.6b4f1194.js"
+  ]
+}

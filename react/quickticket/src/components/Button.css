@@ -1,0 +1,17 @@
+.btn {
+    font-family: 'Fira Mono', monospace; 
+    font-size: 1.2em;
+    padding: 0.5em 1.5em;
+    color: var(--white);
+    background-color: var(--royal-blue);
+    border: 2px solid var(--white); 
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: var(--blue-grotto);
+    border: 2px solid var(--white); 
+  }
+  

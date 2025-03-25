@@ -1,0 +1,23 @@
+.signup-page {
+    text-align: center;
+    font-family: 'Fira Mono', monospace;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .logo {
+    width: 700px;
+    height: auto;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+
+
+  

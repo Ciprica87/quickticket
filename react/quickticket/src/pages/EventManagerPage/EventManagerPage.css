@@ -1,0 +1,117 @@
+.event-manager-page {
+  font-family: 'Fira Mono', monospace;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.event-manager-page .top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--royal-blue);
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.event-manager-page .top-bar h2 {
+  margin: 0;
+}
+
+.event-manager-page .content {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.event-manager-page .event-list-container {
+  width: 30%;
+  max-height: 79%;
+  overflow-y: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+
+.event-manager-page .details-container {
+  flex-grow: 1;
+  max-height: 79%;
+  overflow-y: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+}
+
+.event-manager-page .toggle-button {
+  width: 200px;
+}
+
+
+.event-manager-page .button-group {
+  display: flex;
+  gap: 10px; 
+}
+
+.event-manager-page .toggle-button,
+.event-manager-page .logout-button {
+  background-color: var(--white);
+  color: var(--royal-blue);
+  padding: 10px 20px;
+  border: 2px solid var(--white);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+  width: 200px; 
+}
+
+.event-manager-page .toggle-button:hover,
+.event-manager-page .logout-button:hover {
+  background-color: var(--blue-grotto);
+  color: var(--white);
+  border: 2px solid var(--white);
+}
+
+.modal-button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.modal-button-group .btn {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: var(--royal-blue);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.modal-button-group .btn:hover {
+  background-color: var(--blue-grotto);
+}
+
+.modal-button-group .btn:first-child {
+  background-color: var(--red);
+}
+
+.modal-button-group .btn:first-child:hover {
+  background-color: darkred;
+}

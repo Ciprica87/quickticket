@@ -1,0 +1,36 @@
+.landing-page {
+  text-align: center;
+  font-family: 'Fira Mono', monospace;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  position: relative;
+}
+
+.buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  align-items: center; 
+}
+
+.landing-page .container{
+  margin-top: 50px;
+  box-shadow: none;
+}
+
+.landing-page .btn {
+  width: 300px; 
+}
+
+.logo {
+  width: 700px; 
+  height: auto;
+  position: absolute;
+  top: 70px; 
+  left: 50%;
+  transform: translateX(-50%);
+}

@@ -1,0 +1,301 @@
+.event-details-panel {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 95%;
+  max-width: 95%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;  
+  align-items: center; 
+}
+
+.event-details-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100%; 
+}
+
+.event-details-name {
+  flex: 2;
+  font-size: 24px;
+  margin: 0;
+}
+
+.staff-card.selected {
+  border-color: var(--royal-blue);
+  background-color: var(--baby-blue);
+}
+
+.event-details-date,
+.event-details-location {
+  flex: 1;
+  font-size: 16px;
+  margin: 0;
+}
+
+.event-details-panel h3 {
+  margin-top: 0;
+}
+
+.event-details-panel p {
+  margin: 5px 0;
+}
+
+.event-details-buttons-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background-color: var(--royal-blue);
+  padding: 5px 10px;
+  border-radius: 8px;
+  height: 40px;
+  width: 98%; 
+}
+
+.event-details-buttons-bar .btn {
+  font-family: 'Fira Mono', monospace;
+  font-size: 0.8em;
+  padding: 0.3em 1em;
+  color: var(--white);
+  background-color: var(--royal-blue);
+  border: 2px solid var(--white);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.event-details-buttons-bar .btn:hover {
+  background-color: var(--blue-grotto);
+  border: 2px solid var(--white);
+}
+
+.event-details-buttons-bar .switch-view {
+  background-color: var(--white);
+  color: var(--royal-blue);
+  width: 200px;
+}
+
+.event-details-buttons-bar .switch-view:hover {
+  background-color: var(--blue-grotto);
+  color: var(--white);
+}
+
+.event-details-buttons-bar .tab-title {
+  margin: 10px;
+  color: var(--white);
+  font-size: 0.9em;
+}
+
+.ticket-tiers-container {
+  flex: 1;
+  overflow-y: auto;
+  margin-top: 10px;
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.ticket-tier-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 97%; 
+  max-width: 98%; 
+}
+
+.ticket-tier-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.ticket-tier-name {
+  flex: 2;
+  font-size: 16px;
+  margin: 0;
+}
+
+.ticket-tier-used,
+.ticket-tier-total {
+  flex: 1;
+  font-size: 14px;
+  margin: 0;
+}
+
+.ticket-tier-description {
+  margin: 5px 0;
+}
+
+.staff-container-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%; 
+}
+
+.staff-container {
+  flex: 1;
+  overflow-y: auto;
+  margin-top: 10px;
+  width: 100%; 
+  align-items: center; 
+}
+
+.staff-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 97.2%; 
+}
+
+.staff-info {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  width: 100%; 
+}
+
+.staff-info p {
+  margin: 0; 
+  text-align: left; 
+}
+
+.staff-username{
+  font-size: 14px; 
+  text-align: left;
+}
+
+.staff-email {
+  font-size: 14px;
+  text-align: right; 
+}
+
+.staff-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 100%; 
+}
+
+.staff-buttons .btn {
+  flex: 1;
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 0.9em;
+}
+
+.create-staff-form {
+  width: 100%;
+}
+
+.create-staff-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.create-staff-form .btn {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.staff-form-group {
+  margin-bottom: 10px;
+}
+
+.staff-form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.staff-form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.staff-form-group input:focus {
+  border-color: #0056b3;
+  outline: none;
+}
+
+.event-details-buttons-bar .close-event-btn {
+  background-color: var(--white);
+  color: var(--red); 
+  width: 200px;
+  margin-right: 10px; 
+  border: 2px solid var(--white);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.event-details-buttons-bar .close-event-btn:hover {
+  background-color: var(--blue-grotto);
+  color: var(--red);
+}
+
+.confirm-close-event {
+  text-align: center;
+  font-family: 'Fira Mono', monospace;
+}
+
+.confirm-close-event h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.confirm-close-event p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.confirm-close-event-buttons {
+  display: flex;
+  justify-content: space-between; 
+  margin-top: 20px;
+  width: 100%;
+}
+
+.confirm-close-event-buttons .btn {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: var(--royal-blue);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.confirm-close-event-buttons .btn:hover {
+  background-color: var(--blue-grotto);
+}
+
+.confirm-close-event-buttons .btn:first-child {
+  background-color: var(--red);
+}
+
+.confirm-close-event-buttons .btn:first-child:hover {
+  background-color: darkred;
+}
+
+
